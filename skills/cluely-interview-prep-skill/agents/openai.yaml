@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cluely Interview Prep"
+  short_description: "Generate Cluely routers, mode prompts, and retrieval simulations"
+  default_prompt: "$cluely-interview-prep --source-guide /absolute/path/to/interview-guide.md"

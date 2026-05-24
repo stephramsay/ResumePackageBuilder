@@ -1,0 +1,37 @@
+rules:
+  - id: title.current_exact
+    text: Use Stephanie's current/default title exactly as Chief Experience Officer wherever a title is shown.
+  - id: title.no_append_descriptors
+    text: Do not append descriptors to Chief Experience Officer.
+  - id: broader_scope
+    text: Describe broader CEO-side and COO-style scope in summaries, bullets, and narrative sections.
+  - id: operator_positioning
+    text: Position Stephanie as a healthcare AI operator, CEO-side or founder-side strategic partner, and strategy/operations leader when relevant.
+  - id: not_transitioning
+    text: Do not position her as a product person trying to move into strategy or operations.
+  - id: starlight_kannact_separate
+    text: Keep Starlight and Kannact separated as distinct roles unless Stephanie explicitly chooses otherwise.
+  - id: voice
+    text: Use warm, direct, strategic, human language. Avoid generic corporate phrasing and inflated claims.
+  - id: cover_letter.voice
+    text: Cover letters should feel natural, specific, warm, grounded, and human, with a clear reason the role matters.
+  - id: cover_letter.transition
+    text: If a role is meaningfully different or hands-on despite Stephanie's chief-level title, frame the move as intentional focus close to product, users, workflows, and execution.
+  - id: cover_letter.location_authorization
+    text: Do not lead with location, citizenship, or work authorization unless the job explicitly requires it; never invent authorization facts.
+  - id: punctuation
+    text: Do not use em dashes in final generated assets.
+ucsf_override:
+  employer: University of California, San Francisco
+  overall_tenure: Aug 2018 - Oct 2021
+  location: San Francisco Bay Area
+  program_context: The WISDOM Study
+  roles:
+    - title: Business Analyst / Product Owner
+      employment_type: Full-time
+      dates: Oct 2019 - Oct 2021
+      duration: 2 yrs 1 mo
+    - title: Clinical Research Coordinator
+      dates: Aug 2018 - Oct 2019
+      duration: 1 yr 3 mos
+  preferred_proof_point: I led the makeover of a digital breast cancer prevention program, driving a UX/UI redesign, brand refresh, and overall improved patient experience.

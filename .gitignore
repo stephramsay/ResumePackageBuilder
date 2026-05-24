@@ -1,0 +1,50 @@
+.DS_Store
+*.log
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and tool caches
+node_modules/
+**/node_modules/
+.npm/
+.playwright/
+
+# Generated resume/package outputs
+resume_packages/
+role_packages/
+output/
+outputs/
+documents/
+generated/
+tmp/
+render_qa*/
+pdf_qa*/
+**/role_packages/
+**/output/
+**/outputs/
+**/documents/
+**/generated/
+**/tmp/
+**/render_qa*/
+**/pdf_qa*/
+
+# Source resumes, sample generated resumes, and packaged artifacts stay local.
+assets/resume_app_infra/source_materials/
+assets/resume_app_infra/structure_example/
+skills/cluely-interview-prep-skill/examples/
+*.doc
+*.docx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.zip
+
+# OS/editor noise
+.idea/
+.vscode/

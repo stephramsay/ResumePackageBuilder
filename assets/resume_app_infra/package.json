@@ -1,0 +1,26 @@
+{
+  "name": "resume-app-infra",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "resume-package": "./src/cli/resume-package.js"
+  },
+  "scripts": {
+    "resume-package": "node ./src/cli/resume-package.js",
+    "validate:sample": "node ./src/cli/resume-package.js validate role_packages/ceribell-sample",
+    "preview:sample": "node ./src/cli/resume-package.js preview role_packages/ceribell-sample"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "docx": "^9.5.1",
+    "jszip": "^3.10.1",
+    "pdfjs-dist": "^4.10.38",
+    "playwright": "^1.49.1",
+    "yaml": "^2.6.1"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,47 @@
+description: >
+  Role-specific phrasing support for Stephanie Ramsay resume packages. Durable
+  factual claims belong in resume-facts.yml; this bank should add reusable
+  alternate phrasing or role-context expansion without duplicating canonical
+  source facts.
+roles:
+  - role_id: role.starlight
+    title: "Chief Experience Officer"
+    bullets:
+      - "Owns enterprise adoption, integration, and scale of Starlight's virtual care platform across large health system partners."
+      - "Leads enterprise healthcare partner onboarding and rollout, owning cross-functional execution across product, clinical operations, timelines, dependencies, and risk."
+      - "Shapes enterprise implementation strategy across partner programs, translating care model requirements into scalable workflows, operational infrastructure, and frontline experiences."
+      - "Leads in-person workflow discovery with hospitals and clinics to understand real-world constraints and translate findings into scalable product and operational improvements."
+      - "Acts as a hands-on product leader embedded with delivery teams, designing workflows, validating impact, and shipping quickly while maintaining reliability as programs scale across enterprise partners."
+      - "Designs and operationalizes end-to-end care, intake, billing, and escalation workflows for large-scale health systems and hospitals serving hundreds of thousands of patients."
+      - "Led end-to-end design and execution of care delivery models across post-discharge, maternal health, and chronic care programs, supporting patients from hospital to home and into ongoing care."
+      - "Designed and shipped AI-enabled workflows to reduce administrative burden across care coordination, documentation, patient follow-up, and provider reporting, operating under HIPAA and CMS requirements."
+      - "Collaborates closely with engineering to troubleshoot platform behavior, refine automation logic, and maintain reliability as patient usage scales."
+      - "Owns risk triage and escalation strategy across enterprise healthcare deployments, ensuring patient safety, regulatory compliance, delivery timelines, and system reliability."
+      - "Established delivery standards and mentored internal leaders to support repeatable healthcare program execution and partner onboarding."
+  - role_id: role.kannact
+    title: "VP of Product & Patient Experience"
+    bullets:
+      - "Led the evolution of Kannact from a services-first coaching program into a technology-enabled care platform supporting scalable delivery, data integrity, and operational efficiency."
+      - "Built and scaled a technology-enabled care model supporting continuous patient engagement, behavior change, remote monitoring, and long-term health management."
+      - "Led a cross-functional team of designers and engineers to rebuild the product suite and replace the core codebase, enabling new care models and expansion into new markets."
+      - "White-labeled patient-facing experiences and redesigned core systems to support multiple brands, partners, patient populations, and deployment contexts."
+      - "Collaborated with enterprise healthcare partners to design workflows and data integrations, aligning product, engineering, clinical, and operations teams for successful rollout and scale."
+      - "Partnered across product, clinical, and operations teams to align care delivery with regulatory requirements, business goals, and frontline workflow needs."
+      - "Built omnichannel communication into the care platform, including a Twilio-based call center, improving reliability, increasing care team throughput, and strengthening participant support."
+      - "Built workflow automation and reminder systems that increased participant touchpoints while reducing manual work for care teams."
+      - "Led the reimagining of the mobile experience across iOS and Android, rebuilding core workflows, infrastructure, and the design system to increase app satisfaction from 76% to 84% and reduce tech support cases by over 80%."
+      - "Expanded access by designing an app-less experience for tech-averse members without smartphones or Wi-Fi, improving reach and equity across populations."
+      - "Designed systems that unify patient history, care notes, monitoring data, documentation, scheduling, and reporting into cohesive workflow views to reduce clinician search time and cognitive load."
+      - "Reimagined RPM data visualization to surface meaningful trends at a glance, reducing cognitive load and enabling clearer, more effective patient conversations."
+      - "Delivered product-led demos that helped retain existing clients, drive new client sales, and secure investment."
+      - "Built secure authentication and access control using Auth0 and Okta SSO, strengthening data privacy, account security, and identity management across the platform."
+      - "Drove a major data model simplification and migration, eliminating 80% of unused tables and improving platform scalability and performance."
+      - "Established a structured customer feedback loop through weekly user interviews and post-visit surveys, using insights to inform roadmap priorities and rapid iteration."
+      - "Introduced team objective setting and OKRs across product operations, driving stronger focus, alignment, and execution."
+      - "Scaled the platform from condition-specific programs to a whole-person healthcare model across programs."
+  - role_id: role.ucsf
+    title: "Business Analyst / Product Owner"
+    bullets:
+      - "Authored product specifications, user stories, and acceptance criteria across 30+ release cycles, translating research and operational needs into clear technical requirements."
+      - "Drove a program-wide transition to Salesforce Marketing Cloud, improving participant engagement, outreach coordination, and operational visibility."
+      - "Partnered with clinicians, researchers, and engineers to deliver compliant, participant-centered digital health experiences."

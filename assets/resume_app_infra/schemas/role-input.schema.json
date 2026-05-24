@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Resume Package Role Input",
+  "type": "object",
+  "required": ["company", "role_title", "slug"],
+  "additionalProperties": true,
+  "properties": {
+    "company": { "type": "string", "minLength": 1 },
+    "role_title": { "type": "string", "minLength": 1 },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "target_role_label": { "type": "string" },
+    "department": { "type": "string" },
+    "company_location": { "type": "string" },
+    "hiring_team": { "type": "string" },
+    "company_motivation": { "type": "string" },
+    "notes": { "type": "string" },
+    "publish": { "type": "boolean" }
+  }
+}

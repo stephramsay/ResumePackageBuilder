@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+SKILL_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+ENGINE_DIR="$SKILL_DIR/assets/resume_app_infra"
+
+cd "$ENGINE_DIR"
+npm install
+npx playwright install chromium

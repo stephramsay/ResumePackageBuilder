@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interview Guide Builder"
+  short_description: "Build JD interview guides and Cluely handoffs"
+  default_prompt: "$interview-guide-builder Create an interview guide from this job description"

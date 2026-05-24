@@ -1,0 +1,303 @@
+[COMPANY] INTERVIEW ANSWER ROUTER
+Purpose: Help Cluely recognize interview questions and route to the right concise answer.
+Company:
+Role:
+Interview stage:
+Source docs:
+- [job description / role notes]
+- [company research]
+- [interview prep doc]
+- master_story_bank.txt
+
+Use: Practice, mock interviews, or explicitly permitted notes only.
+
+FORMAT FOR CLUELY:
+- Match the interviewer question to CLUE WORDS / PHRASES.
+- Choose the route by intent first, then clue words.
+- Use the route's ANSWER TYPE to decide the visible answer shape.
+- Return the route's SCRIPT, lightly adapting only the opener if needed for the exact wording.
+- Do not invent facts, metrics, employers, tools, credentials, or outcomes.
+- If there is no strong match, say: No prepared answer found.
+- Keep the router at 35 routes max. Consolidate overlapping routes and store lower-probability detail in cues/source facts.
+
+VISIBLE ANSWER BULLET CONTRACT:
+- Use 2-5 speakable bullets.
+- Include a High-level answer bullet: the direct answer or core principle.
+- Include a Proof/details bullet when there is a relevant proof point, metric, source fact, or detail.
+- Use STAR bullets only for BEHAVIORAL_STORY routes or proof-story follow-ups.
+- Use Role bridge, Plan, Question, or Close bullets when those labels fit the route.
+
+STORY REUSE RULE:
+- During a single meeting, keep a running mental list called USED STORIES.
+- Before giving an answer, check whether the BEST STORY TO USE, STORY OPTIONS, or a substantially similar story has already been used.
+- If the Primary story has not been used, use it and mark it as STORY USED.
+- If the Primary story has already been used, choose the first unused Backup story that fits the question.
+- If all story options have already been used, give a concise framework-only answer.
+- Do not reuse the same story unless Stephanie explicitly asks to go back to it or expand it.
+
+ANSWER STYLE:
+- Keep answers short, natural, and easy to say out loud.
+- Keep the first answer to 100 words max by default.
+- Do not force one structure across every answer. Use the route's ANSWER TYPE:
+  - POSITIONING: High-level answer, Proof/details, Role bridge. Use for tell me about yourself, why company, why role, why leaving, next role, and company overview. Do not use STAR.
+  - FRAMEWORK_WITH_PROOF: High-level answer/framework, Proof/details, Role bridge. Use for "how do you think about..." questions such as prioritization, metrics, AI, requirements, launch readiness, privacy, trust/safety, or product strategy. Expand the proof story in STAR only if asked.
+  - BEHAVIORAL_STORY: use STAR or a natural STAR variant. Use for tell-me-about-a-time, example, conflict, mistake, failure, stakeholder pushback, experiment you ran, roadmap ownership, ambiguity story, or influence.
+  - PRODUCT_DIAGNOSIS: use observation, product judgment, recommendation, metric/guardrail. Use for product critique, first-impression feedback, first logged-in experience, funnel diagnosis, or what would you improve.
+  - PLAN: use phased or prioritized bullets. Use for first 30/60/90, first five experiments, or what would you do first. Do not use STAR.
+  - QUESTIONS_OR_CLOSE: use short direct bullets. Use for questions for interviewer and closing.
+- Put deeper details in cues/source facts so they can be used only if the interviewer probes.
+- Use one story, tailored to the exact question.
+- Avoid stacking every possible proof point.
+- Treat the general framework as the principle layer and the role-specific story as the proof layer.
+- Only core narrative or fundamental-story answers may exceed 100 words; mark them with SCRIPT LENGTH EXCEPTION: CORE_NARRATIVE or SCRIPT LENGTH EXCEPTION: FUNDAMENTAL_STORY and keep them at or below 130 words.
+
+STANDARD ROUTE COVERAGE:
+Every role-specific router must cover the common interview family, even when the interview is expected to be technical or domain-specific: tell me about yourself, why company, why role/fit, first 30/60/90 or getting started, prioritization/roadmap, stakeholder pushback, requirements/launch readiness, metrics, cross-functional alignment or conflict, failure/mistake/learning, ambiguity, leadership style or leadership influence, questions for them, and closing/final thoughts.
+If adding all standard coverage plus domain-specific routes would exceed 35 routes, merge related routes and keep the detail in CUES/SOURCE LAYER instead of creating more routes.
+
+============================================================
+STORY BANK
+============================================================
+
+[Copy only the relevant stories from templates/master_story_bank.txt.]
+[Add interview-specific stories here if they are grounded in source material.]
+
+============================================================
+ROUTE 01 - WHY_COMPANY
+============================================================
+
+CLUE WORDS / PHRASES
+- why [company]
+- why this role
+- why are you interested
+- what interests you about us
+- why now
+
+GENERIC QUESTION
+Why are you interested in [company] and this role?
+
+ANSWER TYPE
+POSITIONING
+
+WHAT TO SAY FIRST
+Lead with the principle: [the company/role connects to Stephanie's strongest core theme].
+
+BEST STORY TO USE
+[Map to the strongest role-relevant story.]
+
+STORY OPTIONS
+- Primary: STORY_[ID]
+- Backup 1: STORY_[ID]
+- Backup 2: STORY_[ID]
+
+SOURCE LAYER
+- General PM framework: [reusable principle]
+- Role-specific story: [why this company/role is specifically relevant]
+
+EXAMPLE ANSWER
+[100 words max. Direct answer -> one proof point or principle -> concise role bridge. Natural, conversational, specific.]
+
+============================================================
+ROUTE 02 - TELL_ME_ABOUT_YOURSELF
+============================================================
+
+CLUE WORDS / PHRASES
+- tell me about yourself
+- walk me through your background
+- career overview
+- your story
+
+GENERIC QUESTION
+Tell me about yourself.
+
+ANSWER TYPE
+POSITIONING
+
+WHAT TO SAY FIRST
+Lead with the principle: Stephanie turns messy healthcare workflows into products, services, and operating systems that work in practice.
+
+BEST STORY TO USE
+[current role positioning plus the most relevant company-specific angle.]
+
+STORY OPTIONS
+- Primary: STORY_01_STARLIGHT_0_TO_1
+- Backup 1: STORY_11_KANNACT_PLATFORM_REBUILD
+- Backup 2: STORY_13_AI_PERSONAL_WORKFLOW
+
+SOURCE LAYER
+- General PM framework: Lead with the repeatable pattern, then prove it with current scope.
+- Role-specific story: [specific role/company tie-in]
+
+EXAMPLE ANSWER
+[Tailor for this company.]
+
+============================================================
+ROUTE 03 - PRODUCT_OPERATIONS
+============================================================
+
+CLUE WORDS / PHRASES
+- product operations
+- operating rhythm
+- source of truth
+- requirements
+- launch process
+- cross-functional process
+
+GENERIC QUESTION
+How do you improve product operations?
+
+ANSWER TYPE
+FRAMEWORK_WITH_PROOF
+
+WHAT TO SAY FIRST
+Lead with the principle: product operations should reduce context loss and help teams move faster without adding heavy process.
+
+BEST STORY TO USE
+[Choose the strongest role-relevant ops story.]
+
+STORY OPTIONS
+- Primary: STORY_01_STARLIGHT_0_TO_1
+- Backup 1: STORY_03_HEALTH_SUMMARY_REPORT
+- Backup 2: STORY_14_CARE_GAPS_LAUNCH
+
+SOURCE LAYER
+- General PM framework: Add just enough structure to improve decisions, handoffs, launch readiness, and learning loops.
+- Role-specific story: [tailor to company operating needs]
+
+EXAMPLE ANSWER
+[Tailor for this company.]
+
+============================================================
+ROUTE 04 - AI_DAY_TO_DAY_USE
+============================================================
+
+CLUE WORDS / PHRASES
+- how do you use AI
+- AI day to day
+- practical AI use
+- AI in your workflow
+- AI tools
+- clinical team AI
+- AI workshops
+
+GENERIC QUESTION
+How are you using AI in your work today?
+
+ANSWER TYPE
+FRAMEWORK_WITH_PROOF
+
+WHAT TO SAY FIRST
+Lead with the principle: AI is a workflow accelerator, not the source of truth.
+
+BEST STORY TO USE
+Daily AI workflow and clinical workshops.
+
+STORY OPTIONS
+- Primary: STORY_13_AI_PERSONAL_WORKFLOW
+- Backup 1: STORY_16_CLINICIAN_GEMINI_WORKSHOPS
+- Backup 2: STORY_06_AI_TRANSCRIPT_QA
+
+SOURCE LAYER
+- General PM framework: AI is useful when it reduces busywork, improves synthesis, and supports real workflow decisions with human review.
+- Role-specific story: [connect to company AI/product/workflow needs]
+
+EXAMPLE ANSWER
+[Tailor for this company.]
+
+============================================================
+ROUTE 05 - CURRENT_AI_LEARNING
+============================================================
+
+CLUE WORDS / PHRASES
+- what are you learning
+- staying current
+- learning AI
+- Codex
+- agentic AI
+- automation
+- personal project
+
+GENERIC QUESTION
+What are you learning right now, and how are you applying it?
+
+ANSWER TYPE
+POSITIONING
+
+WHAT TO SAY FIRST
+Lead with the principle: learning is most useful when it turns into something concrete.
+
+BEST STORY TO USE
+Codex resume automation story.
+
+STORY OPTIONS
+- Primary: STORY_18_CODEX_RESUME_AUTOMATION
+- Backup 1: STORY_13_AI_PERSONAL_WORKFLOW
+- Backup 2: STORY_16_CLINICIAN_GEMINI_WORKSHOPS
+
+SOURCE LAYER
+- General PM framework: Stay current by experimenting in real workflows, learning tool limits, and keeping human judgment in the loop.
+- Role-specific story: [connect to company need for AI fluency, execution, or automation]
+
+EXAMPLE ANSWER
+[Tailor for this company.]
+
+============================================================
+ROUTE 06 - STAKEHOLDER_PUSHBACK
+============================================================
+
+CLUE WORDS / PHRASES
+- push back
+- stakeholder request
+- not aligned with product strategy
+- sales request
+- provider portal
+- one-off client request
+- strategic pushback
+- say no
+- tradeoff
+
+GENERIC QUESTION
+Tell me about a time you had to push back on a stakeholder request that was not aligned with product strategy.
+
+ANSWER TYPE
+BEHAVIORAL_STORY
+
+WHAT TO SAY FIRST
+Lead with the principle: pushing back works best when Stephanie understands the real need, protects the product strategy, and offers a better path instead of just saying no.
+
+BEST STORY TO USE
+Health Summary Report / provider portal request.
+
+STORY OPTIONS
+- Primary: STORY_03_HEALTH_SUMMARY_REPORT
+- Backup 1: None unless a role-specific one-off customization story is grounded in the source material.
+- Backup 2: STORY_10_ENGINEERING_PUSHBACK only if the question is specifically about engineering pushback, not stakeholder strategy.
+
+SOURCE LAYER
+- General PM framework: Reframe the request into the underlying problem, then compare the requested build against simpler, reusable, more strategic solutions.
+- Role-specific story: Sales wanted a provider portal; Stephanie diagnosed the provider-value need and steered toward the Health Summary Report as a simpler, more accessible, reusable way to close the between-visit communication gap.
+
+EXAMPLE ANSWER
+[100 words max. Keep the arc: sales wanted a portal -> real need was proving value to providers -> one-off portal risked distracting strategy -> Health Summary Report solved the need in a simpler, more reusable way.]
+
+============================================================
+ADD MORE ROUTES AS NEEDED
+============================================================
+
+Recommended routes to tailor per interview:
+- WHY_COMPANY
+- WHY_LEAVING
+- TELL_ME_ABOUT_YOURSELF
+- PRODUCT_OPERATIONS
+- AMBIGUITY
+- CROSS_FUNCTIONAL_WORK
+- WORKFLOW_IMPROVEMENT
+- AI_IN_HEALTHCARE
+- AI_DAY_TO_DAY_USE
+- CURRENT_AI_LEARNING
+- STAKEHOLDER_PUSHBACK
+- PRIORITIZATION
+- EXECUTION_AND_SCALING
+- CLINICAL_OR_OPERATIONAL_TEAMS
+- FAILURE_OR_LESSON_LEARNED
+- QUESTIONS_FOR_INTERVIEWER

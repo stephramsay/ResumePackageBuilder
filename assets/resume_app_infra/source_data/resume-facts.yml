@@ -1,0 +1,140 @@
+roles:
+  - id: role.starlight
+    employer: Starlight
+    location: Remote
+    dates: Apr 2024 - Present
+    title: Chief Experience Officer
+    descriptor: Virtual clinic and health tech company partnering with enterprise health systems to deliver ambulatory and post-discharge care through remote patient monitoring and clinical support.
+    subroles:
+      - title: Chief Experience Officer
+        dates: Nov 2025 - Present
+      - title: VP of Patient Experience
+        dates: Apr 2024 - Nov 2025
+    emphasis_tags:
+      - healthcare_ai
+      - virtual_care
+      - clinical_workflows
+      - health_systems
+      - ceo_side_operations
+      - ambulatory
+      - post_discharge
+      - billing
+      - implementation
+    claims:
+      - id: starlight.enterprise_adoption.001
+        text: Owns enterprise adoption, onboarding, integration, and scale of Starlight's virtual care platform across health system partners, operating between customers, clinical operations, product, engineering, and compliance.
+        tags: [enterprise_adoption, health_systems, implementation, cross_functional]
+      - id: starlight.voc_requirements.001
+        text: Partners with health system executives, clinicians, and operational leaders to map provider workflows, surface unmet needs, collect VOC, and translate customer needs into product requirements, rollout plans, and measurable success criteria.
+        tags: [voc, clinical_workflows, product_requirements, health_systems]
+      - id: starlight.ai_documentation.001
+        text: Introduced AI-powered documentation and medical record summarization capabilities that cut documentation and chart review time by 50% and increased care capacity by 20%.
+        metric_ids: [metric.documentation_time_reduction_50, metric.care_capacity_increase_20]
+        tags: [healthcare_ai, documentation, medical_record_summarization, care_capacity]
+      - id: starlight.ai_strategy.001
+        text: Led organizational AI strategy for practical clinical and operational workflows, translating AI opportunities into documentation, summarization, follow-up, and reporting capabilities that care teams could adopt.
+        tags: [healthcare_ai, ai_strategy, clinical_workflows, documentation, provider_reporting, adoption]
+      - id: starlight.virtual_clinic_build.001
+        text: Built Starlight's virtual clinic from scratch, owning patient experience, clinician experience, care-team workflows, and enterprise health system partnership execution from 0-to-1 launch through scale.
+        tags: [virtual_clinic, patient_experience, clinician_experience, care_model_design, health_systems, enterprise_partnerships, launch, scale]
+      - id: starlight.access_support_workflows.001
+        text: Designed patient access and clinical support workflows across referral intake, eligibility, insurance verification, billing, clinical escalation, follow-up, and support, strengthening continuity of care and reducing post-discharge drop-off.
+        tags: [patient_access, referral_intake, eligibility, billing, escalation, post_discharge, follow_up, lifecycle]
+      - id: starlight.billing_workflows.001
+        text: Built automated billing and operational workflows across E/M, RPM, and CCM services, defining code logic, aggregation rules, and process controls to support compliant, repeatable growth.
+        tags: [billing, rpm, ccm, em, compliance, operations]
+      - id: starlight.intake_conversion.001
+        text: Created the first intake and eligibility workflow for the virtual clinic model, driving a 70% referral-to-enrollment conversion rate in year one.
+        metric_ids: [metric.referral_conversion_70]
+        tags: [intake, eligibility, enrollment, conversion, activation, virtual_clinic]
+      - id: starlight.intake_activation.001
+        text: Created the first intake and eligibility workflow for the virtual clinic model, driving a 70% referral-to-activation rate in year one.
+        metric_ids: [metric.referral_conversion_70]
+        tags: [intake, eligibility, onboarding, activation, service_activation, adoption, growth, virtual_clinic]
+      - id: starlight.ambiguity_execution.001
+        text: Led high-ambiguity product and operations workstreams by translating strategic direction into milestones, workflows, technical requirements, implementation priorities, and cross-functional execution.
+        tags: [ambiguity, strategy_to_execution, technical_requirements, cross_functional]
+      - id: starlight.bottleneck_resolution.001
+        text: Identified bottlenecks across clinical, product, compliance, engineering, and partner workflows, then drove practical fixes through launch, adoption, and scale.
+        tags: [problem_solving, launch, adoption, scale]
+  - id: role.kannact
+    employer: Kannact
+    location: Remote
+    dates: Oct 2021 - Present
+    title: VP of Product & Patient Experience
+    descriptor: B2B2C health program supporting chronic condition management through employer-sponsored benefits.
+    subroles:
+      - title: VP of Product & Patient Experience
+        dates: Mar 2024 - Present
+      - title: Director of Product
+        dates: Oct 2022 - Mar 2024
+      - title: Senior Product Manager
+        dates: Oct 2021 - Oct 2022
+    emphasis_tags:
+      - chronic_condition_management
+      - care_management
+      - rpm
+      - fhir
+      - engagement
+      - partner_enablement
+      - platform_rebuild
+    claims:
+      - id: kannact.roadmap_satisfaction.001
+        text: Defined and executed a phased two-year roadmap to rebuild the participant and care-team experience, resulting in 96% participant satisfaction and an NPS of 82.
+        metric_ids: [metric.participant_satisfaction_96, metric.nps_82]
+        tags: [roadmap, participant_experience, care_team_experience, satisfaction]
+      - id: kannact.platform_rebuild.001
+        text: Rebuilt the core care management platform from the ground up, integrating real-time RPM workflows, omnichannel communication, an embedded Twilio-based call center, automated tasking, coach documentation, and FHIR-based interoperability foundations.
+        tags: [platform_rebuild, rpm, omnichannel, patient_communication, call_center, twilio, documentation, fhir, interoperability]
+      - id: kannact.configurable_saas.001
+        text: Transformed the internal care platform into a configurable, multi-tenant SaaS product with role-based access, reporting, white-labeled experiences, and partner-specific deployment needs.
+        tags: [saas, multi_tenant, partner_deployment, reporting]
+      - id: kannact.fhir_data_layer.001
+        text: Led development of a FHIR-based data layer for direct EHR connectivity and structured clinical data sharing.
+        tags: [fhir, ehr, data_sharing, product_requirements, health_systems]
+      - id: kannact.omnichannel_engagement.001
+        text: Built the omnichannel coach-message campaign across phone, SMS, email, video, and secure messaging, doubling activation rates and reducing churn to under 2%.
+        metric_ids: [metric.activation_doubled, metric.net_churn_under_2]
+        tags: [omnichannel, engagement, activation, lifecycle, retention, patient_communication, care_teams]
+      - id: kannact.scheduling_efficiency.001
+        text: Launched centralized scheduling and patient reminder infrastructure, increasing scheduling efficiency 3x and cutting appointment no-shows in half.
+        metric_ids: [metric.operational_efficiency_300, metric.no_shows_50]
+        tags: [scheduling, reminders, appointment_scheduling, notifications, operational_efficiency, no_shows]
+      - id: kannact.clinical_outcomes.001
+        text: Improved clinical quality and outcomes across tracked HEDIS measures, exceeding national benchmarks and supporting up to $7,000 total annual cost savings per patient across diabetes, blood pressure management, annual physicals, and preventive cancer screenings.
+        metric_ids: [metric.hedis_benchmarks, metric.hedis_cost_savings_7000]
+        tags: [clinical_quality, outcomes, hedis, medical_costs]
+  - id: role.ucsf
+    employer: University of California, San Francisco
+    location: San Francisco, CA
+    dates: Aug 2018 - Oct 2021
+    title: Business Analyst / Product Owner
+    descriptor: Digital breast cancer prevention program serving 40,000+ participants.
+    emphasis_tags:
+      - clinical_research
+      - digital_health
+      - patient_experience
+      - ucsf
+      - compliant_workflows
+    subroles:
+      - title: Business Analyst / Product Owner
+        dates: Oct 2019 - Oct 2021
+        duration: 2 yrs 1 mo
+      - title: Clinical Research Coordinator
+        dates: Aug 2018 - Oct 2019
+        duration: 1 yr 3 mos
+    claims:
+      - id: ucsf.participant_redesign.001
+        text: Led redesign of the participant experience, including intake, onboarding, patient-facing tools, and internal operational workflows for a digital breast cancer prevention program serving 40,000+ participants.
+        tags: [participant_experience, intake, onboarding, patient_tools, patient_facing, screening, clinical_research]
+      - id: ucsf.conversion_activation.001
+        text: Improved enrollment conversion by 42% and reduced time to activation by 93% through streamlined workflows, clearer communication, and experience improvements.
+        metric_ids: [metric.ucsf_enrollment_conversion_42, metric.ucsf_time_to_activation_93]
+        tags: [enrollment, activation, service_activation, workflows, communication]
+      - id: ucsf.compliant_releases.001
+        text: Partnered with clinicians, researchers, engineers, and operations teams to translate complex research and healthcare requirements into compliant product and workflow solutions across more than 30 releases.
+        metric_ids: [metric.ucsf_releases_30]
+        tags: [clinicians, researchers, engineers, compliant_product, releases]
+      - id: ucsf.scalable_workflows.001
+        text: Translated clinical, research, and operational needs into scalable workflows that improved participant access, activation, and program execution in a complex academic medical research environment.
+        tags: [clinical_needs, research_operations, scalable_workflows, participant_access]

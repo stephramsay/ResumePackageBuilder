@@ -1,0 +1,71 @@
+NEW QUESTION UPDATE GUIDE
+Use this when Cluely misses a question, routes to the wrong answer, or the interviewer asks something new.
+
+============================================================
+FAST DIAGNOSIS
+============================================================
+
+Question asked:
+[paste the interviewer question]
+
+What happened?
+- Cluely found the right route but answer was not tailored enough.
+- Cluely picked the wrong route.
+- Cluely said no prepared answer found.
+- Cluely repeated a story.
+- Cluely gave an answer that was too wordy.
+
+============================================================
+WHAT TO UPDATE
+============================================================
+
+If Cluely found the right route but missed the wording:
+- Add the exact interviewer phrasing under CLUE WORDS / PHRASES.
+
+If Cluely picked the wrong route:
+- Add the phrase to the correct route.
+- Remove or narrow the phrase from the wrong route if needed.
+- Add a ROUTING NOTE if two routes are easy to confuse.
+- Special case: "push back on a stakeholder request that was not aligned with product strategy" should route to STAKEHOLDER_PUSHBACK using STORY_03_HEALTH_SUMMARY_REPORT and the provider-portal request angle. Do not leave it under broad tradeoffs, platform rebuild, platform-transition weakness, coworker conflict, engineering pushback, or technical debt.
+
+If the answer was too generic:
+- Rewrite EXAMPLE ANSWER.
+- Keep the same principle.
+- Tailor the story more tightly to the exact question.
+
+If the story repeated:
+- Add better Backup stories under STORY OPTIONS.
+- Change the Primary story if another story is stronger for that route.
+
+If there is no route for the question:
+- Add a new ROUTE only if the router will still have 35 routes or fewer.
+- If the router is already near the 35-route cap, merge the question into the closest existing route and add the distinct detail to cues/source facts.
+- Use the next route number only after checking the route budget.
+- Include clue phrases, generic question, principle, story options, source layer, and example answer.
+
+If the answer shape is hard to skim:
+- Rewrite the example answer as 2-5 bullets.
+- Include a High-level answer bullet.
+- Include a Proof/details bullet when evidence is available.
+- Use STAR bullets only for behavioral stories or proof-story follow-ups.
+
+============================================================
+REUSABLE REQUEST FOR CODEX
+============================================================
+
+Add these new interview questions to the [company] Cluely router.
+If they fit existing routes, add them as clue phrases.
+If they need a distinct answer, create new routes.
+Keep the router at 35 routes max; consolidate overlapping routes when needed.
+If the current answer is too generic, rewrite it to be concise, natural, and in Stephanie's voice.
+Use 2-5 bullets with High-level answer, Proof/details, and STAR only when applicable.
+Use only the existing story bank and source notes unless I provide a new story.
+Do not invent experience.
+
+Questions:
+- [question 1]
+- [question 2]
+- [question 3]
+
+Notes from me:
+- [what felt off / what I want the answer to emphasize]

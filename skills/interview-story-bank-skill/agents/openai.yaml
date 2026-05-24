@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interview Story Bank"
+  short_description: "Curate reusable interview stories"
+  default_prompt: "Use $interview-story-bank to scan this document, compare it to my existing story bank, and report only unique stories or meaningful variations."

@@ -1,0 +1,93 @@
+ROLE TAILORING CHECKLIST
+Use this before uploading a role-specific router to Cluely.
+
+============================================================
+ROLE CONTEXT
+============================================================
+
+- Company:
+- Role:
+- Interview stage:
+- Interviewer:
+- Likely focus:
+- Source docs used:
+
+============================================================
+MUST-TAILOR ROUTES
+============================================================
+
+- ROUTE_BUDGET: no more than 35 routes total. Merge overlapping domains instead of adding lower-probability routes.
+- STANDARD_COVERAGE: every router includes tell me about yourself, why company, why role/fit, first 30/60/90 or getting started, prioritization/roadmap, stakeholder pushback, requirements/launch readiness, metrics, cross-functional alignment or conflict, failure/mistake/learning, ambiguity, leadership style or leadership influence, questions for them, and closing/final thoughts.
+- WHY_COMPANY: mentions the actual company, patient/user, product, market, and role.
+- WHY_THIS_ROLE: ties Stephanie's background to what the role needs now.
+- WHY_LEAVING: clear, positive, forward-looking.
+- TELL_ME_ABOUT_YOURSELF: not generic; points toward this role.
+- PRODUCT_OPERATIONS: uses the company's operating needs if known.
+- STAKEHOLDER_PUSHBACK: maps "pushed back on a stakeholder request not aligned with product strategy" to STORY_03_HEALTH_SUMMARY_REPORT with the provider-portal request / Health Summary Report angle.
+- AI_IN_HEALTHCARE or AI_IN_PRODUCT: tuned to the company's AI maturity and risk.
+- QUESTIONS_FOR_INTERVIEWER: asks about decision rights, source of truth, launch pain, and success criteria.
+
+============================================================
+STORY COVERAGE
+============================================================
+
+For each high-likelihood question:
+- Primary story is the strongest story.
+- Backup 1 is meaningfully different.
+- Backup 2 is meaningfully different.
+- No one story is primary for too many routes unless unavoidable.
+- Any new story is grounded in source material or Stephanie's direct notes.
+
+============================================================
+ANSWER QUALITY
+============================================================
+
+- 100 words max by default.
+- Each route's visible answer uses 2-5 bullets.
+- Every route includes a high-level answer bullet.
+- Every route includes proof/details when a proof point, metric, story detail, or source fact is available.
+- STAR appears only for BEHAVIORAL_STORY routes or proof-story follow-ups.
+- Every route has the right ANSWER TYPE:
+  - POSITIONING for direct identity/fit/company/role/why leaving/next role/company overview answers. Use High-level answer, Proof/details, Role bridge.
+  - FRAMEWORK_WITH_PROOF for how Stephanie thinks about product topics such as prioritization, metrics, AI, requirements, launch, privacy, safety, trust, or strategy. Use high-level framework, proof/details, role bridge.
+  - BEHAVIORAL_STORY for tell-me-about-a-time, example, conflict, mistake, failure, stakeholder pushback, experiment you ran, roadmap ownership, ambiguity, or influence. Use STAR or natural STAR.
+  - PRODUCT_DIAGNOSIS for critique, first-impression feedback, first logged-in experience, funnel diagnosis, or what would you improve.
+  - PLAN for first 30/60/90, first five experiments, or what would you do first.
+  - QUESTIONS_OR_CLOSE for questions and closing.
+- STAR is used only for BEHAVIORAL_STORY routes or proof-story follow-ups, not for every answer.
+- Framework answers include a senior principle and one proof-story hook; the story can expand into STAR if probed.
+- Keeps deeper detail in cues/source facts for follow-up probes.
+- Uses one story only.
+- Sounds like something Stephanie would say out loud.
+- Only core narrative or fundamental-story answers exceed 100 words; those are explicitly marked as SCRIPT LENGTH EXCEPTION and still stay at or below 130 words.
+- No invented metrics.
+- No dense resume language.
+- No overexplaining.
+- Tailored to the specific question, not a generic story dump.
+
+============================================================
+CLUELY TEST QUESTIONS
+============================================================
+
+Before the interview, test:
+- Why this company?
+- Tell me about yourself.
+- What would you do in your first 30/60/90 days?
+- Why are you leaving?
+- How do you work cross-functionally?
+- Tell me about ambiguity.
+- How do you prioritize?
+- Tell me about a time you pushed back on a stakeholder request that was not aligned with product strategy.
+- How do you define success metrics?
+- How do you turn requirements into a launch-ready product?
+- How would people describe your leadership style?
+- How do you use AI?
+- What are you learning right now?
+- Tell me about a mistake.
+- What questions do you have for us?
+
+For every failed test:
+- Add clue phrases if routing failed.
+- Tighten the example answer if the response was wordy.
+- Add story backups if the same story repeats.
+- If the stakeholder-pushback test returns platform rebuild, platform-transition weakness, coworker conflict, engineering pushback, or technical-debt stories, add or tighten a dedicated STAKEHOLDER_PUSHBACK route using STORY_03_HEALTH_SUMMARY_REPORT.

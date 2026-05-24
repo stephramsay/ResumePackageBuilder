@@ -1,0 +1,97 @@
+MASTER STORY BANK
+Purpose: Reusable Stephanie story bank for Cluely interview answer routers.
+Use: Copy relevant stories into the role-specific router. Add role-specific notes only when grounded in source material.
+
+============================================================
+STORY BANK
+============================================================
+
+STORY_01_STARLIGHT_0_TO_1
+Short label: Starlight 0-to-1 virtual clinic.
+Use for: Product operations, strategy-to-execution, scaling, why early-stage healthcare.
+Summary: Helped turn the CEO's vision from a health benefit into a virtual clinic with intake, eligibility, insurance verification, visit workflows, escalation, billing logic, documentation, training, and feedback loops.
+
+STORY_02_ENROLLMENT_JOURNEY
+Short label: Starlight enrollment journey mapping.
+Use for: Ambiguity, prioritization, validation, patient trust, workflow redesign.
+Summary: Patients were referred and interested but not completing onboarding; mapped the journey with patient quotes, message threads, and funnel metrics; tested guided intake personally; helped create a new role that reached 70% activation within a year.
+
+STORY_03_HEALTH_SUMMARY_REPORT
+Short label: Health Summary Report.
+Use for: Clinical/operational teams, validation, requirements, data, AI summaries, launch, provider-facing value, stakeholder pushback on provider portal or one-off feature requests.
+Summary: Built a report for primary care teams summarizing engagement, device data, goals, risks, gaps, and AI-generated summary context; partnered with design, clinical ops, and engineering; led QA and training. For stakeholder-pushback questions, use the provider-portal request angle: sales wanted a portal, Stephanie diagnosed the real provider-value need, avoided a one-off build, and steered toward the Health Summary Report as a simpler, more accessible, reusable way to close the between-visit communication gap.
+
+STORY_04_HEDIS_CARE_GAPS
+Short label: HEDIS care gap workflow.
+Use for: Cross-functional alignment, clinical/data/design/engineering work, QA, outcomes.
+Summary: Built HEDIS care gap workflow across clinical, data, design, engineering, QA, and operations; kept everyone grounded in making the information actionable during patient conversations; exceeded national HEDIS benchmarks by at least 10%.
+
+STORY_05_AI_CHART_SUMMARIES
+Short label: AI chart summaries.
+Use for: AI in healthcare, clinician trust, AI adoption, AI failure, data transformation.
+Summary: Tested LLM-generated summaries to reduce 30-45 minute chart review; first output was not reliable enough; transformed FHIR JSON into cleaner human-readable input; brought clinicians into evaluation.
+
+STORY_06_AI_TRANSCRIPT_QA
+Short label: AI transcript quality review.
+Use for: AI transcript analysis, quality review, feedback loops, care-team training.
+Summary: Manual QA covered about 5% of patient calls; led AI transcript analysis to identify patterns at scale and feed insights into care-team training and workflow design.
+
+STORY_07_COST_UNCERTAINTY_BILLING
+Short label: Cost uncertainty and billing.
+Use for: Cross-functional problem solving, ambiguity, patient friction, billing, operational fixes.
+Summary: Patients hesitated because insurance coverage and out-of-pocket costs were unclear; brought care coordinators, billing, and data together; improved scripting and handoff in the short term while building a historical claims dataset for better prediction.
+
+STORY_08_POST_DISCHARGE_RESEARCH
+Short label: Post-discharge ethnographic research.
+Use for: Conflict, influence, discovery, ambiguity, caregiver insight, patient journey.
+Summary: Went onsite to observe referral and discharge workflows; found referral model was too narrow and caregiver messaging was not landing; adjusted workflow and messaging; later used direct discharge feeds to convert about 50% of patients through outreach.
+
+STORY_09_CONSENT_REQUIREMENT_CHANGE
+Short label: Consent requirement change.
+Use for: Changing requirements, compliance, legal review, mid-sprint scope change.
+Summary: During intake-flow development, legal/compliance flagged consent needed explicit first and last name capture; updated requirements and acceptance criteria, documented the reason, and kept the release moving.
+
+STORY_10_ENGINEERING_PUSHBACK
+Short label: Engineering pushback in grooming.
+Use for: Conflict, technical collaboration, requirements clarity, bringing engineering in early.
+Summary: Engineers pushed back on requirements during grooming; slowed down, grounded conversation in problem/context/constraints, and learned to bring engineering in earlier so they could catch risks before build.
+
+STORY_11_KANNACT_PLATFORM_REBUILD
+Short label: Kannact care platform rebuild.
+Use for: Workflow improvement, patient experience, care-team operations, platform differentiation.
+Summary: Discovery with clinicians, patient calls, and patient interviews showed patient experience issues came from operational friction; rebuilt care management platform around communication, scheduling, reminders, reporting, and engagement; increased engagement by 67%, nearly doubled activation, and reached 96% patient satisfaction.
+
+STORY_12_EHR_INTEGRATION_BUILD_BUY
+Short label: EHR integration / build vs buy.
+Use for: Technical product judgment, integrations, interoperability, build vs buy.
+Summary: Considered direct EHR integrations but decided system-by-system would not scale; built a FHIR layer and used HIE networks to move the right information at the right time without locking into one vendor or EHR system.
+
+STORY_13_AI_PERSONAL_WORKFLOW
+Short label: AI for personal product workflow.
+Use for: AI in personal work, productivity, documentation, market research, requirements.
+Summary: Uses AI for drafting, care-team scripting, requirements, launch planning, SQL/YAML help, transcriptions, SOPs, product docs, and weekly market research automation; reviews outputs because AI is not the source of truth.
+
+STORY_14_CARE_GAPS_LAUNCH
+Short label: Care gaps launch readiness.
+Use for: QA, launch, training, post-launch workflow fit.
+Summary: Launched care gap feature by making sure care teams knew when to bring up care gaps, how to talk about them with patients, and how the information fit into the existing workflow.
+
+STORY_15_WHITE_LABEL_QA
+Short label: White-label QA.
+Use for: QA, launch risk, patient-facing experience, edge cases.
+Summary: For a white-labeled experience, tested brands, automated emails, scheduling links, and patient paths to ensure patients did not get the wrong experience.
+
+STORY_16_CLINICIAN_GEMINI_WORKSHOPS
+Short label: Clinician AI workshops.
+Use for: AI adoption, culture change, clinician enablement, safe AI use.
+Summary: Ran workshops with clinicians to teach safe Gemini use, make AI feel less intimidating, and show practical ways AI could make their work more efficient.
+
+STORY_17_WEAKNESS_PLATFORM_TRANSITION
+Short label: Platform transition tradeoff.
+Use for: Weakness, tradeoffs, prioritization, shipping before perfect.
+Summary: During internal platform rebuild, clinicians used old and new systems during transition; learned that sometimes it is better to tolerate temporary mess if it lets the team ship more valuable functionality sooner.
+
+STORY_18_CODEX_RESUME_AUTOMATION
+Short label: Codex resume automation.
+Use for: Learning mindset, AI fluency, agentic workflows, experimentation, personal automation, staying current.
+Summary: Recently became more intentional about learning AI; completed an agentic course; went deep in Codex and built an automation that reviews resume, background, and role criteria, then creates a tailored resume, cover letter, and role-specific website landing page with more color and personality while keeping human review and judgment in the loop.

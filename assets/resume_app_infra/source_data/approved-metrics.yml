@@ -1,0 +1,123 @@
+metrics:
+  - id: metric.documentation_time_reduction_50
+    label: 50%
+    description: documentation and chart review time reduction
+    allowed_phrases:
+      - 50% documentation time reduction
+      - cut documentation and chart review time by 50%
+      - reduced documentation and chart review time by 50%
+  - id: metric.care_capacity_increase_20
+    label: 20%
+    description: care capacity increase
+    allowed_phrases:
+      - 20% care capacity increase
+      - increased care capacity by 20%
+  - id: metric.referral_conversion_70
+    label: 70%
+    description: referral-to-conversion rate
+    allowed_phrases:
+      - 70% referral-to-conversion
+      - 70% referral-to-enrollment conversion rate
+      - 70% referral-to-activation rate
+      - 70% activation rate
+  - id: metric.net_churn_under_2
+    label: <2%
+    description: net churn below 2% from omnichannel coach-led campaign
+    allowed_phrases:
+      - net churn below 2%
+      - net churn under 2%
+      - churn below 2%
+      - churn under 2%
+      - reduced churn to under 2%
+      - reducing churn to under 2%
+  - id: metric.activation_doubled
+    label: 2X
+    description: activation rate improvement from omnichannel coach-led campaign
+    allowed_phrases:
+      - doubled activation rates
+      - doubling activation rates
+      - activation rates doubled
+  - id: metric.participant_satisfaction_96
+    label: 96%
+    description: participant satisfaction
+    allowed_phrases:
+      - 96% participant satisfaction
+      - 96% patient satisfaction
+  - id: metric.nps_82
+    label: 82
+    description: Net Promoter Score
+    allowed_phrases:
+      - NPS of 82
+      - NPS 82
+  - id: metric.operational_efficiency_300
+    label: 3x
+    description: scheduling efficiency increase from centralized scheduling and reminder infrastructure
+    allowed_phrases:
+      - scheduling efficiency increased 3x
+      - increasing scheduling efficiency 3x
+      - increased scheduling efficiency 3x
+  - id: metric.no_shows_50
+    label: 50%
+    description: no-show reduction
+    allowed_phrases:
+      - 50% fewer no-shows
+      - cut appointment no-shows in half
+      - cutting appointment no-shows in half
+      - appointment no-shows cut in half
+  - id: metric.hedis_benchmarks
+    label: HEDIS
+    description: exceeded national HEDIS benchmarks
+    allowed_phrases:
+      - exceeded national HEDIS benchmarks
+      - tracked HEDIS measures, exceeding national benchmarks
+      - HEDIS measures, exceeding national benchmarks
+  - id: metric.hedis_cost_savings_7000
+    label: $7K
+    description: annual cost savings per patient across tracked HEDIS measures
+    allowed_phrases:
+      - up to $7,000 total annual cost savings per patient
+      - up to $7K total annual cost savings per patient
+      - supporting up to $7,000 total annual cost savings per patient
+  - id: metric.app_satisfaction_76_to_84
+    label: 11%
+    description: app satisfaction lift, 76% to 84%
+    allowed_phrases:
+      - app satisfaction from 76% to 84%
+      - raising app satisfaction from 76% to 84%
+      - increasing app satisfaction from 76% to 84%
+  - id: metric.mobile_support_cases_reduced_over_80
+    label: ">80%"
+    description: tech support case reduction from the mobile app rebuild
+    allowed_phrases:
+      - reduce tech support cases by over 80%
+      - reducing tech support cases by over 80%
+      - reduced tech support cases by over 80%
+      - tech support cases reduced by over 80%
+      - support cases dropped by over 80%
+      - support cases reduced by over 80%
+  - id: metric.unused_tables_eliminated_80
+    label: 80%
+    description: unused tables eliminated
+    allowed_phrases:
+      - eliminating 80% of unused tables
+      - eliminated 80% of unused tables
+  - id: metric.ucsf_enrollment_conversion_42
+    label: 42%
+    description: UCSF enrollment conversion improvement
+    allowed_phrases:
+      - 42% enrollment conversion improvement
+      - improved enrollment conversion by 42%
+      - 42% increase in enrollment conversion
+  - id: metric.ucsf_time_to_activation_93
+    label: 93%
+    description: UCSF time-to-activation reduction
+    allowed_phrases:
+      - 93% time-to-activation reduction
+      - reduced time to activation by 93%
+      - 93% reduction in time to activation
+  - id: metric.ucsf_releases_30
+    label: 30+
+    description: UCSF releases
+    allowed_phrases:
+      - 30+ releases
+      - across more than 30 releases

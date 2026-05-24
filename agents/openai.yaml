@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume Package"
+  short_description: "Generate, validate, and publish Stephanie's tailored resume packages"
+  default_prompt: "$resume-package https://example.com/job-posting"
